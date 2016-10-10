@@ -1,7 +1,7 @@
 package utils {
 	import flash.globalization.DateTimeFormatter;
 
-	public  class TimeUtils {
+	public class TimeUtils {
 		public static function secsToTimeCode(n:Number):String {
 			var finStr:String = "";
 			var h:int = Math.floor((n/3600));
